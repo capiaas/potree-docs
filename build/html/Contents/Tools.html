@@ -1,0 +1,255 @@
+<!DOCTYPE html>
+<html class="writer-html5" lang="en" >
+<head>
+  <meta charset="utf-8" /><meta name="generator" content="Docutils 0.17.1: http://docutils.sourceforge.net/" />
+
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Tools &mdash; potree  documentation</title>
+      <link rel="stylesheet" href="../_static/pygments.css" type="text/css" />
+      <link rel="stylesheet" href="../_static/css/theme.css" type="text/css" />
+  <!--[if lt IE 9]>
+    <script src="../_static/js/html5shiv.min.js"></script>
+  <![endif]-->
+  
+        <script data-url_root="../" id="documentation_options" src="../_static/documentation_options.js"></script>
+        <script src="../_static/jquery.js"></script>
+        <script src="../_static/underscore.js"></script>
+        <script src="../_static/_sphinx_javascript_frameworks_compat.js"></script>
+        <script src="../_static/doctools.js"></script>
+        <script src="../_static/sphinx_highlight.js"></script>
+    <script src="../_static/js/theme.js"></script>
+    <link rel="index" title="Index" href="../genindex.html" />
+    <link rel="search" title="Search" href="../search.html" />
+    <link rel="next" title="Scene" href="Scene.html" />
+    <link rel="prev" title="Appearance" href="Appearence.html" /> 
+</head>
+
+<body class="wy-body-for-nav"> 
+  <div class="wy-grid-for-nav">
+    <nav data-toggle="wy-nav-shift" class="wy-nav-side">
+      <div class="wy-side-scroll">
+        <div class="wy-side-nav-search" >
+            <a href="../index.html" class="icon icon-home"> potree
+          </a>
+<div role="search">
+  <form id="rtd-search-form" class="wy-form" action="../search.html" method="get">
+    <input type="text" name="q" placeholder="Search docs" />
+    <input type="hidden" name="check_keywords" value="yes" />
+    <input type="hidden" name="area" value="default" />
+  </form>
+</div>
+        </div><div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="Navigation menu">
+              <p class="caption" role="heading"><span class="caption-text">Contents:</span></p>
+<ul class="current">
+<li class="toctree-l1"><a class="reference internal" href="Appearence.html">Appearance</a></li>
+<li class="toctree-l1 current"><a class="current reference internal" href="#">Tools</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="#measurement">Measurement</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="#angle-angle">Angle |angle|</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#point">Point</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#distance">Distance</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#height">Height</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#circle">Circle</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#azimuth">Azimuth</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#area">Area</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#volume-cube">Volume (cube)</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#volume-sphere">Volume (sphere)</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#height-profile">Height profile</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#annotation">Annotation</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#remove-measurements">Remove measurements</a></li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="#clipping">Clipping</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#navigation">Navigation</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="#earth-control">Earth Control</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#fly-control">Fly control</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#helicopter-control">Helicopter control</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#orbit-control">Orbit Control</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#full-extent">Full extent</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#navigation-cube">Navigation cube</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#compass">Compass</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#camera-animation">Camera animation</a></li>
+</ul>
+</li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="Scene.html">Scene</a></li>
+</ul>
+
+        </div>
+      </div>
+    </nav>
+
+    <section data-toggle="wy-nav-shift" class="wy-nav-content-wrap"><nav class="wy-nav-top" aria-label="Mobile navigation menu" >
+          <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
+          <a href="../index.html">potree</a>
+      </nav>
+
+      <div class="wy-nav-content">
+        <div class="rst-content">
+          <div role="navigation" aria-label="Page navigation">
+  <ul class="wy-breadcrumbs">
+      <li><a href="../index.html" class="icon icon-home"></a> &raquo;</li>
+      <li>Tools</li>
+      <li class="wy-breadcrumbs-aside">
+            <a href="../_sources/Contents/Tools.rst.txt" rel="nofollow"> View page source</a>
+      </li>
+  </ul>
+  <hr/>
+</div>
+          <div role="main" class="document" itemscope="itemscope" itemtype="http://schema.org/Article">
+           <div itemprop="articleBody">
+             
+  <section id="tools">
+<h1>Tools<a class="headerlink" href="#tools" title="Permalink to this heading"></a></h1>
+<section id="measurement">
+<h2>Measurement<a class="headerlink" href="#measurement" title="Permalink to this heading"></a></h2>
+<p>Potree 3D viewer module provides several tools for measurement. This tool set consist of 12 elements. It also has controls for showing or hiding the resulting measurement labels.</p>
+<p>Measurements are performed by use of left clicking the mouse on the desired points and right clicking is needed to terminate the process.</p>
+<section id="angle-angle">
+<h3>Angle <a href="#id1"><span class="problematic" id="id2">|angle|</span></a><a class="headerlink" href="#angle-angle" title="Permalink to this heading"></a></h3>
+<p>..|angle| image:: /images/angle.png</p>
+<img alt="../_images/pointbudget.png" src="../_images/pointbudget.png" />
+<p>This tool measures the tridimensional angle formed by the lines connecting 3 points. To start a measurement, click on the angle icon, then left click on 3 point and the process will be automatically ended.</p>
+</section>
+<section id="point">
+<h3>Point<a class="headerlink" href="#point" title="Permalink to this heading"></a></h3>
+<p>This tool highlights a selected point and display its XYZ coordinate. To start a measurement, click on the point icon, then click on the desired point and the process will be automatically ended.</p>
+</section>
+<section id="distance">
+<h3>Distance<a class="headerlink" href="#distance" title="Permalink to this heading"></a></h3>
+<p>This tool measures the tridimensional distance of the lines connecting a series of points. To start a measurement, click on the distance icon and start clicking on the desired points (two or more). Right click to finish measurement.</p>
+<p>Further information such as total length can also be obtained from selecting this under the scene section.</p>
+</section>
+<section id="height">
+<h3>Height<a class="headerlink" href="#height" title="Permalink to this heading"></a></h3>
+<p>This tool measures the height or vertical distance between two points. To start a measurement, click on the height icon and then click on the desired two points. The process will be automatically ended.
+Further information can also be obtained from selecting this element under the scene section.</p>
+</section>
+<section id="circle">
+<h3>Circle<a class="headerlink" href="#circle" title="Permalink to this heading"></a></h3>
+<p>This tool measures the radius of a circle formed by three points. To start a measurement, click on the circle icon and then click on the desired two points. The process will be automatically ended.</p>
+<p>Further information such as Circumference can also be obtained from selecting this element under the scene section.</p>
+</section>
+<section id="azimuth">
+<h3>Azimuth<a class="headerlink" href="#azimuth" title="Permalink to this heading"></a></h3>
+<p>This tool measures the azimuthal angle of a line. This line is formed by two points selected by the user, the angle is measured in degrees, clockwise from 0 to 360 and starting from the geographical north. To start a measurement, click on the azimuth icon and then click on the desired two points. The process will be automatically ended.</p>
+<p>Further information can also be obtained from selecting this element under the scene section.</p>
+</section>
+<section id="area">
+<h3>Area<a class="headerlink" href="#area" title="Permalink to this heading"></a></h3>
+<p>This tool measures the horizontal area formed by a polygon. To start a measurement, click on the area icon and start clicking on the points forming the desired polygon (three or more). Right click to finish measurement.
+Further information can also be obtained from selecting this element under the scene section.</p>
+</section>
+<section id="volume-cube">
+<h3>Volume (cube)<a class="headerlink" href="#volume-cube" title="Permalink to this heading"></a></h3>
+<p>This tool measures the horizontal area formed by a polygon. To start a meaurement, click on the volume(cube) icon and click on the model to place the cube. It is possible to relocate, rescale and rotate the cube using the displayed handlers. Right click to finish the measurement.
+Further information can also be obtained from selecting this element under the scene section.</p>
+</section>
+<section id="volume-sphere">
+<h3>Volume (sphere)<a class="headerlink" href="#volume-sphere" title="Permalink to this heading"></a></h3>
+<p>This tool measures the volume formed by a sphere. To start a measurement, click on the volume (sphere) icon and click on the model to place the sphere. It is possible to relocate, rescale and rotate the sphere using the displayed handlers. Right click to finish measurement.
+Further information can also be obtained from selecting this element under the scene section.</p>
+</section>
+<section id="height-profile">
+<h3>Height profile<a class="headerlink" href="#height-profile" title="Permalink to this heading"></a></h3>
+<p>The tool icon that looks like a multicolored M.
+This tool creates a height profile formed by a line on the model. To start a measurement, click on the Height profile icon and then form a line on the model by clicking on the desired points (two or more).</p>
+<p>When you mouse over the point cloud data, you should now see a red ball attached to your mouse cursor. This allows you to drop nodes and establish the location of your profile. When you want to finalize your profile double click on the last node. Once a profile is finalized, you can still change its location by clicking on the red nodes and dragging them to a different location.</p>
+<p>Further information and options, such as <strong>Show 2d Profile</strong>, can also been obtained from selecting this element under the scene section.</p>
+<p>A profile of the lidar data should now be visible at the bottom of the screen. The profile will also update in real time if you move the profile throughout the data.</p>
+<p>The save button in the upper right corner of the profile window will download a las file containing the points from the profile. This is useful for extracting the data you want to use for further analysis.</p>
+</section>
+<section id="annotation">
+<h3>Annotation<a class="headerlink" href="#annotation" title="Permalink to this heading"></a></h3>
+<p>This tool creates an annotation label on a highlighted point on the model. To start a measurement, click on the annotation icon and then click on the desired point. The process will be automatically ended. To edit the annotation, select this element under the scene section, then edit Title and Description.</p>
+</section>
+<section id="remove-measurements">
+<h3>Remove measurements<a class="headerlink" href="#remove-measurements" title="Permalink to this heading"></a></h3>
+<p>This tool removes all measurements on the model. To remove all measurement, click on the “Remove measurements” icon.</p>
+</section>
+</section>
+<section id="clipping">
+<h2>Clipping<a class="headerlink" href="#clipping" title="Permalink to this heading"></a></h2>
+<p>Point cloud can be clipped by selecting an area. Clipping options include None / Highlight / Inside /outside.</p>
+<p>To clip a point cloud, click on the volume clip icon, place the cube on the model and relocate, rescale, and rotate to contain the desired area. Highlight is set by default as the clipping method.</p>
+<p>If only the points contained within the cube needs to be displayed, click on “Inside”, otherwise click on “Outside”.</p>
+<p>To remove the clipping volume or polygons click on the “Remove all measurements” icon.</p>
+</section>
+<section id="navigation">
+<h2>Navigation<a class="headerlink" href="#navigation" title="Permalink to this heading"></a></h2>
+<p>Potree 3D viewer have 4 Navigation controls which define its behavior.</p>
+<section id="earth-control">
+<h3>Earth Control<a class="headerlink" href="#earth-control" title="Permalink to this heading"></a></h3>
+<p>Earth control navigated as anchored to the ground. Mouse left button moves the model horizontally, mouse wheel controls zoom, and right button orbits the model.</p>
+</section>
+<section id="fly-control">
+<h3>Fly control<a class="headerlink" href="#fly-control" title="Permalink to this heading"></a></h3>
+<p>Fly control moves the camera as in birds eye using the keyboard. Keys “W” and “S” moves forward and backwards, respectively and in the direction of the camera, while “A” and “D” moves left and right respectively.</p>
+<p>Also, the “R” and “F” keys moves the camera up and down. The mouse left button changes the direction of the camera, mouse wheel controls zoom, and right button moves the camera in the XYZ axis.</p>
+<p>The speed for these movements can be controlled using the sliding control.</p>
+</section>
+<section id="helicopter-control">
+<h3>Helicopter control<a class="headerlink" href="#helicopter-control" title="Permalink to this heading"></a></h3>
+<p>Helicopter control moves the camera as in an aircraft using the keyboard. Keys “W” and “S” moves forward and backwards, respectively restricted in a horizontal plane, while “A” and “D” moves left and right respectively.</p>
+<p>Also, the “R” and “F” keys moves the camera up and down. The mouse left button changes the direction of the camera, mouse wheel controls zoom, and right button moves the model in the XY axis.</p>
+<p>The speed for these movements can be controlled using the sliding control.</p>
+</section>
+<section id="orbit-control">
+<h3>Orbit Control<a class="headerlink" href="#orbit-control" title="Permalink to this heading"></a></h3>
+<p>Orbit Control is the default navigation behavior. The mouse left button orbits the model, the wheel controls zoom, and the right button moves the model in the XYZ axis.</p>
+</section>
+<section id="full-extent">
+<h3>Full extent<a class="headerlink" href="#full-extent" title="Permalink to this heading"></a></h3>
+<p>Full extent button restores the model view.</p>
+</section>
+<section id="navigation-cube">
+<h3>Navigation cube<a class="headerlink" href="#navigation-cube" title="Permalink to this heading"></a></h3>
+<p>Navigation cube displays a wireframe cube containing the model.</p>
+</section>
+<section id="compass">
+<h3>Compass<a class="headerlink" href="#compass" title="Permalink to this heading"></a></h3>
+<p>Compass button displays a compass on the upper right corner.</p>
+</section>
+<section id="camera-animation">
+<h3>Camera animation<a class="headerlink" href="#camera-animation" title="Permalink to this heading"></a></h3>
+<p>The camera animation button - creates a camera animation path.</p>
+<p>Points on green line – defines position of camera</p>
+<p>Point on blue line – defines direction the camera is intended to be facing</p>
+<p>Position of the camera is defined by the points on the green line while the points in the blue line are the location towards the camera is intended to be facing.</p>
+<p>To create an animation, adjust the points for the camera locations and camera direction, then select the camera element under the Scene section to create more point, change animation speed or play the animation.</p>
+</section>
+</section>
+</section>
+
+
+           </div>
+          </div>
+          <footer><div class="rst-footer-buttons" role="navigation" aria-label="Footer">
+        <a href="Appearence.html" class="btn btn-neutral float-left" title="Appearance" accesskey="p" rel="prev"><span class="fa fa-arrow-circle-left" aria-hidden="true"></span> Previous</a>
+        <a href="Scene.html" class="btn btn-neutral float-right" title="Scene" accesskey="n" rel="next">Next <span class="fa fa-arrow-circle-right" aria-hidden="true"></span></a>
+    </div>
+
+  <hr/>
+
+  <div role="contentinfo">
+    <p>&#169; Copyright 2022, Capia As.</p>
+  </div>
+
+  Built with <a href="https://www.sphinx-doc.org/">Sphinx</a> using a
+    <a href="https://github.com/readthedocs/sphinx_rtd_theme">theme</a>
+    provided by <a href="https://readthedocs.org">Read the Docs</a>.
+   
+
+</footer>
+        </div>
+      </div>
+    </section>
+  </div>
+  <script>
+      jQuery(function () {
+          SphinxRtdTheme.Navigation.enable(true);
+      });
+  </script> 
+
+</body>
+</html>

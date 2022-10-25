@@ -2,6 +2,9 @@ Tools
 +++++++++++
 Measurement
 ==================================
+.. image:: /images/Tools.png
+   
+
 Potree 3D viewer module provides several tools for measurement. This tool set consist of 12 elements. It also has controls for showing or hiding the resulting measurement labels.
 
 Measurements are performed by use of left clicking the mouse on the desired points and right clicking is needed to terminate the process.
@@ -9,26 +12,40 @@ Measurements are performed by use of left clicking the mouse on the desired poin
 
 Angle 
 ----------------------------------
+.. image:: /images/angle.png
+   :width: 100
 
 This tool measures the tridimensional angle formed by the lines connecting 3 points. To start a measurement, click on the angle icon, then left click on 3 point and the process will be automatically ended. 
 
 Point
 ------------------------
+.. image:: /images/point.png
+   :width: 100
+
 This tool highlights a selected point and display its XYZ coordinate. To start a measurement, click on the point icon, then click on the desired point and the process will be automatically ended. 
 
 Distance
 ------------------------
+.. image:: /images/distance.png
+   :width: 100
+
 This tool measures the tridimensional distance of the lines connecting a series of points. To start a measurement, click on the distance icon and start clicking on the desired points (two or more). Right click to finish measurement.
 
 Further information such as total length can also be obtained from selecting this under the scene section.
 
 Height
 ----------------------
+.. image:: /images/height.png
+   :width: 100
+
 This tool measures the height or vertical distance between two points. To start a measurement, click on the height icon and then click on the desired two points. The process will be automatically ended. 
 Further information can also be obtained from selecting this element under the scene section.
 
 Circle
 -----------------
+.. image:: /images/circle.png
+   :width: 100
+
 This tool measures the radius of a circle formed by three points. To start a measurement, click on the circle icon and then click on the desired two points. The process will be automatically ended. 
 
 Further information such as Circumference can also be obtained from selecting this element under the scene section.
@@ -99,6 +116,9 @@ Potree 3D viewer have 4 Navigation controls which define its behavior.
 
 Earth Control
 ----------------------------------
+.. image:: /images/earth_controls_1.png
+   :width: 100
+
 Earth control navigated as anchored to the ground. Mouse left button moves the model horizontally, mouse wheel controls zoom, and right button orbits the model.
 
 Fly control
@@ -111,6 +131,9 @@ The speed for these movements can be controlled using the sliding control.
 
 Helicopter control
 --------------------
+.. image:: /images/helicopter_controls.png
+   :width: 100
+   
 Helicopter control moves the camera as in an aircraft using the keyboard. Keys "W" and "S" moves forward and backwards, respectively restricted in a horizontal plane, while "A" and "D" moves left and right respectively. 
 
 Also, the "R" and "F" keys moves the camera up and down. The mouse left button changes the direction of the camera, mouse wheel controls zoom, and right button moves the model in the XY axis.
@@ -119,6 +142,9 @@ The speed for these movements can be controlled using the sliding control.
 
 Orbit Control
 ------------------------
+.. image:: /images/orbit_controls.png
+   :width: 100
+
 Orbit Control is the default navigation behavior. The mouse left button orbits the model, the wheel controls zoom, and the right button moves the model in the XYZ axis.
 
 Full extent

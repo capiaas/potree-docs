@@ -7,10 +7,7 @@ Point Budget
 
 The point budget limits the number of points loaded and rendered at any given time, which helps to adapt performance requirements to the capabilities of different hardware. Recommended values are between 500.000 and 10.000.000.
    
-.. raw:: html
-   <video controls src="_static/background.mp4" width="620" height="620"/>
 
-  
 
 Field of View
 ==================================

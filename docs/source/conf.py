@@ -14,9 +14,7 @@ author = 'Capia'
 # https://www.sphinx-doc.org/en/master/usage/configuration.html#general-configuration
 
 extensions = []
-extensions = [
-    'sphinxcontrib.video'
-]
+
 #extensions = ['myst_parser']
 
 templates_path = ['_templates']

@@ -3,6 +3,7 @@ Tools
 Measurement
 ==================================
 .. image:: /images/Tools.png
+   :align: center
    
 
 Potree 3D viewer module provides several tools for measurement. This tool set consist of 12 elements. It also has controls for showing or hiding the resulting measurement labels.
@@ -10,12 +11,20 @@ Potree 3D viewer module provides several tools for measurement. This tool set co
 Measurements are performed by use of left clicking the mouse on the desired points and right clicking is needed to terminate the process.
  
 
-Angle 
-----------------------------------
+Angle
+------------------------       
 .. image:: /images/angle.png
    :width: 100
 
 This tool measures the tridimensional angle formed by the lines connecting 3 points. To start a measurement, click on the angle icon, then left click on 3 point and the process will be automatically ended. 
+
+.. raw:: html
+
+  <center>
+    <video controls src="../_static/Angle.mp4" width ="500" height="300"></video>
+  </center>
+
+
 
 Point
 ------------------------
@@ -23,6 +32,15 @@ Point
    :width: 100
 
 This tool highlights a selected point and display its XYZ coordinate. To start a measurement, click on the point icon, then click on the desired point and the process will be automatically ended. 
+
+
+.. raw:: html
+
+  <center>
+    <video controls src="../_static/Point.mp4" width ="500" height="300"></video>
+  </center>
+
+
 
 Distance
 ------------------------
@@ -33,6 +51,16 @@ This tool measures the tridimensional distance of the lines connecting a series 
 
 Further information such as total length can also be obtained from selecting this under the scene section.
 
+
+.. raw:: html
+
+  <center>
+    <video controls src="../_static/Distance.mp4" width ="500" height="300></video>
+  </center>
+
+
+
+
 Height
 ----------------------
 .. image:: /images/height.png
@@ -41,14 +69,34 @@ Height
 This tool measures the height or vertical distance between two points. To start a measurement, click on the height icon and then click on the desired two points. The process will be automatically ended. 
 Further information can also be obtained from selecting this element under the scene section.
 
+.. raw:: html
+
+  <center>
+    <video controls src="../_static/Height.mp4" width ="500" height="300"></video>
+  </center>
+
+
+
+
+
 Circle
 -----------------
 .. image:: /images/circle.png
    :width: 100
 
-This tool measures the radius of a circle formed by three points. To start a measurement, click on the circle icon and then click on the desired two points. The process will be automatically ended. 
+This tool measures the radius of a circle formed by three points. To start a measurement, click on the circle icon and then click on the desired three points. The process will be automatically ended. 
 
 Further information such as Circumference can also be obtained from selecting this element under the scene section.
+
+.. raw:: html
+
+  <center>
+    <video controls src="../_static/Circle.mp4" width ="500" height="300"></video>
+  </center>
+
+
+
+
 
 Azimuth
 -------------------
@@ -56,11 +104,27 @@ This tool measures the azimuthal angle of a line. This line is formed by two poi
 
 Further information can also be obtained from selecting this element under the scene section.
 
+
+.. raw:: html
+
+  <center>
+    <video controls src="../_static/Azimuth.mp4" width ="500" height="300"></video>
+  </center>
+
+
+
 Area
 ---------------------
 
 This tool measures the horizontal area formed by a polygon. To start a measurement, click on the area icon and start clicking on the points forming the desired polygon (three or more). Right click to finish measurement. 
+
 Further information can also be obtained from selecting this element under the scene section.
+
+.. raw:: html
+
+  <center>
+    <video controls src="../_static/Area.mp4" width ="500" height="300"></video>
+  </center>
 
  
 Volume (cube)
@@ -69,10 +133,26 @@ Volume (cube)
 This tool measures the horizontal area formed by a polygon. To start a meaurement, click on the volume(cube) icon and click on the model to place the cube. It is possible to relocate, rescale and rotate the cube using the displayed handlers. Right click to finish the measurement.
 Further information can also be obtained from selecting this element under the scene section.
 
+.. raw:: html
+
+  <center>
+    <video controls src="../_static/Volume_cube.mp4" width ="500" height="300"></video>
+  </center>
+
+
+
 Volume (sphere)
 -----------------------
 This tool measures the volume formed by a sphere. To start a measurement, click on the volume (sphere) icon and click on the model to place the sphere. It is possible to relocate, rescale and rotate the sphere using the displayed handlers. Right click to finish measurement. 
 Further information can also be obtained from selecting this element under the scene section.
+
+.. raw:: html
+
+  <center>
+    <video controls src="../_static/Volume_sphere.mp4" width ="500" height="300"></video>
+  </center>
+
+
 
 Height profile
 ---------------------------
@@ -87,6 +167,13 @@ A profile of the lidar data should now be visible at the bottom of the screen. T
 
 The save button in the upper right corner of the profile window will download a las file containing the points from the profile. This is useful for extracting the data you want to use for further analysis.
 
+.. raw:: html
+
+  <center>
+    <video controls src="../_static/Height_profile.mp4" width ="500" height="300"></video>
+  </center>
+
+
 
 
 Annotation
@@ -94,10 +181,19 @@ Annotation
 
 This tool creates an annotation label on a highlighted point on the model. To start a measurement, click on the annotation icon and then click on the desired point. The process will be automatically ended. To edit the annotation, select this element under the scene section, then edit Title and Description.
 
+.. raw:: html
+
+  <center>
+    <video controls src="../_static/Annotation.mp4" width ="500" height="300"></video>
+  </center>
+
+
 Remove measurements
 ----------------------------------
 
 This tool removes all measurements on the model. To remove all measurement, click on the "Remove measurements" icon.
+
+
 
 Clipping
 ==================================
@@ -108,6 +204,14 @@ To clip a point cloud, click on the volume clip icon, place the cube on the mode
 If only the points contained within the cube needs to be displayed, click on "Inside", otherwise click on "Outside".
 
 To remove the clipping volume or polygons click on the "Remove all measurements" icon.
+
+
+.. raw:: html
+
+  <center>
+    <video controls src="../_static/Clipping.mp4" width ="500" height="300"></video>
+  </center>
+
 
 
 Navigation
@@ -121,6 +225,12 @@ Earth Control
 
 Earth control navigated as anchored to the ground. Mouse left button moves the model horizontally, mouse wheel controls zoom, and right button orbits the model.
 
+.. raw:: html
+
+  <center>
+    <video controls src="../_static/earthcontrol.mp4" width ="500" height="300"></video>
+  </center>
+
 Fly control
 ----------------------------------
 Fly control moves the camera as in birds eye using the keyboard. Keys "W" and "S" moves forward and backwards, respectively and in the direction of the camera, while "A" and "D" moves left and right respectively. 
@@ -128,6 +238,14 @@ Fly control moves the camera as in birds eye using the keyboard. Keys "W" and "S
 Also, the "R" and "F" keys moves the camera up and down. The mouse left button changes the direction of the camera, mouse wheel controls zoom, and right button moves the camera in the XYZ axis.
 
 The speed for these movements can be controlled using the sliding control.
+
+.. raw:: html
+
+  <center>
+    <video controls src="../_static/flycontrol.mp4" width ="500" height="300"></video>
+  </center>
+
+
 
 Helicopter control
 --------------------
@@ -146,6 +264,12 @@ Orbit Control
    :width: 100
 
 Orbit Control is the default navigation behavior. The mouse left button orbits the model, the wheel controls zoom, and the right button moves the model in the XYZ axis.
+
+.. raw:: html
+
+  <center>
+    <video controls src="../_static/orbitcontrol.mp4" width ="500" height="300"></video>
+  </center>
 
 Full extent
 ---------------------

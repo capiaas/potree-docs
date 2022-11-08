@@ -1,0 +1,257 @@
+<!DOCTYPE html>
+<html class="writer-html5" lang="en" >
+<head>
+  <meta charset="utf-8" /><meta name="generator" content="Docutils 0.17.1: http://docutils.sourceforge.net/" />
+
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>User Interface &mdash; potree  documentation</title>
+      <link rel="stylesheet" href="../_static/pygments.css" type="text/css" />
+      <link rel="stylesheet" href="../_static/css/theme.css" type="text/css" />
+  <!--[if lt IE 9]>
+    <script src="../_static/js/html5shiv.min.js"></script>
+  <![endif]-->
+  
+        <script data-url_root="../" id="documentation_options" src="../_static/documentation_options.js"></script>
+        <script src="../_static/jquery.js"></script>
+        <script src="../_static/underscore.js"></script>
+        <script src="../_static/doctools.js"></script>
+    <script src="../_static/js/theme.js"></script>
+    <link rel="index" title="Index" href="../genindex.html" />
+    <link rel="search" title="Search" href="../search.html" />
+    <link rel="next" title="Sidebar" href="Sidebar.html" />
+    <link rel="prev" title="Potree Viewer User Manual" href="../index.html" /> 
+</head>
+
+<body class="wy-body-for-nav"> 
+  <div class="wy-grid-for-nav">
+    <nav data-toggle="wy-nav-shift" class="wy-nav-side">
+      <div class="wy-side-scroll">
+        <div class="wy-side-nav-search" >
+            <a href="../index.html" class="icon icon-home"> potree
+          </a>
+<div role="search">
+  <form id="rtd-search-form" class="wy-form" action="../search.html" method="get">
+    <input type="text" name="q" placeholder="Search docs" />
+    <input type="hidden" name="check_keywords" value="yes" />
+    <input type="hidden" name="area" value="default" />
+  </form>
+</div>
+        </div><div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="Navigation menu">
+              <p class="caption" role="heading"><span class="caption-text">Contents:</span></p>
+<ul class="current">
+<li class="toctree-l1 current"><a class="current reference internal" href="#">User Interface</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="#information-bar">Information Bar</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#measurements">Measurements</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="#angle">Angle</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#point">Point</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#distance">Distance</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#height">Height</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#circle">Circle</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#remove-all-measurements">Remove all measurements</a></li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="#navigation">Navigation</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="#earth-control">Earth Control</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#fly-control">Fly control</a></li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="#screenshot">Screenshot</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#point-budget-slider">Point Budget Slider</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#display-options">Display Options</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="#rgb">RGB</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#intensity">Intensity</a></li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="#images">360 Images</a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="Sidebar.html">Sidebar</a></li>
+</ul>
+
+        </div>
+      </div>
+    </nav>
+
+    <section data-toggle="wy-nav-shift" class="wy-nav-content-wrap"><nav class="wy-nav-top" aria-label="Mobile navigation menu" >
+          <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
+          <a href="../index.html">potree</a>
+      </nav>
+
+      <div class="wy-nav-content">
+        <div class="rst-content">
+          <div role="navigation" aria-label="Page navigation">
+  <ul class="wy-breadcrumbs">
+      <li><a href="../index.html" class="icon icon-home"></a></li>
+      <li class="breadcrumb-item active">User Interface</li>
+      <li class="wy-breadcrumbs-aside">
+            <a href="../_sources/Contents/Webinterface.rst.txt" rel="nofollow"> View page source</a>
+      </li>
+  </ul>
+  <hr/>
+</div>
+          <div role="main" class="document" itemscope="itemscope" itemtype="http://schema.org/Article">
+           <div itemprop="articleBody">
+             
+  <section id="user-interface">
+<h1>User Interface<a class="headerlink" href="#user-interface" title="Permalink to this headline"></a></h1>
+<section id="information-bar">
+<h2>Information Bar<a class="headerlink" href="#information-bar" title="Permalink to this headline"></a></h2>
+<img alt="../_images/informationbar.png" class="align-center" src="../_images/informationbar.png" />
+<p>Information bar is displayed at the top right corner of the screen. This is where you can find details/metadata about each dataset.
+There are two types of name labels, the label with bigger text is county name; another label with smaller text is municipality name.The number
+in white denotes the dataset id referring to datasets annotation. The other details availbale are the dataset name, time stamps, Number of points and the length of the dataset.</p>
+</section>
+<section id="measurements">
+<h2>Measurements<a class="headerlink" href="#measurements" title="Permalink to this headline"></a></h2>
+<a class="reference internal image-reference" href="../_images/toolicon.png"><img alt="../_images/toolicon.png" src="../_images/toolicon.png" style="width: 100px;" /></a>
+<p>Measurements are performed by use of left clicking the mouse on the desired position and right clicking is needed to terminate the process. Angle, Point,Distance,Height,Circle
+measurement tools also can be found under the tools section in the sidebar . To remove all measurements that have been made, click on the trashbin icon or press “Escape”.</p>
+<section id="angle">
+<h3>Angle<a class="headerlink" href="#angle" title="Permalink to this headline"></a></h3>
+<a class="reference internal image-reference" href="../_images/angle.png"><img alt="../_images/angle.png" src="../_images/angle.png" style="width: 100px;" /></a>
+<p>This tool measures the tridimensional angle formed by the lines connecting three points.To start a measurement, click on the angle
+measurement icon, then left click on three desired position and the process will be automatically completed.The result angles unit is degree.
+All red points are draggable to adjust their positions.</p>
+<center>
+  <video controls src="../_static/Angle.mp4" width ="500" height="300"></video>
+</center></section>
+<section id="point">
+<h3>Point<a class="headerlink" href="#point" title="Permalink to this headline"></a></h3>
+<a class="reference internal image-reference" href="../_images/point.png"><img alt="../_images/point.png" src="../_images/point.png" style="width: 100px;" /></a>
+<p>This tool set a point at desired position and display its XYZ coordinate. To start a measurement, click on the point measurement icon,
+then click on the desired position and the process will be completed. All red points are draggable to adjust their positions.</p>
+<center>
+  <video controls src="../_static/Point.mp4" width ="500" height="300"></video>
+</center></section>
+<section id="distance">
+<h3>Distance<a class="headerlink" href="#distance" title="Permalink to this headline"></a></h3>
+<a class="reference internal image-reference" href="../_images/distance.png"><img alt="../_images/distance.png" src="../_images/distance.png" style="width: 100px;" /></a>
+<p>This tool measures the tridimensional distance of the lines connecting a series of points. To start a measurement, click on the distance measurement icon
+and start clicking on the desired position (two or more). Right click to finish measurement. Press ‘Escape’ to remove all points. The unit of measurement is meter.</p>
+<p>More information such as total length can also be obtained from selecting this under the scene section in the sidebar.All red points are draggable to adjust their positions.</p>
+<center>
+  <video controls src="../_static/Distance.mp4" width ="500" height="300"></video>
+</center></section>
+<section id="height">
+<h3>Height<a class="headerlink" href="#height" title="Permalink to this headline"></a></h3>
+<a class="reference internal image-reference" href="../_images/height.png"><img alt="../_images/height.png" src="../_images/height.png" style="width: 100px;" /></a>
+<p>This tool measures the vertical distance between two points. To start a measurement, click on the height measurement icon and then click on the desired two positions.
+The process will be automatically completed. More information can also be obtained from selecting this element under the scene section in the sidebar.
+All red points are draggable to adjust their positions.</p>
+<center>
+  <video controls src="../_static/Height.mp4" width ="500" height="300"></video>
+</center></section>
+<section id="circle">
+<h3>Circle<a class="headerlink" href="#circle" title="Permalink to this headline"></a></h3>
+<a class="reference internal image-reference" href="../_images/circle.png"><img alt="../_images/circle.png" src="../_images/circle.png" style="width: 100px;" /></a>
+<p>This tool measures the radius of a circle formed by three points. To start a measurement, click on the circle measurement icon and then click on three desired positions.
+The process will be automatically completed. All red points are draggable to adjust their positions.</p>
+<p>More information such as Circumference can also be obtained from selecting this element under the scene section in the sidebar.</p>
+<center>
+  <video controls src="../_static/Circle.mp4" width ="500" height="300"></video>
+</center></section>
+<section id="remove-all-measurements">
+<h3>Remove all measurements<a class="headerlink" href="#remove-all-measurements" title="Permalink to this headline"></a></h3>
+<a class="reference internal image-reference" href="../_images/trash.png"><img alt="../_images/trash.png" src="../_images/trash.png" style="width: 100px;" /></a>
+<p>To remove all measurements has been made, click on the trashbin icon.</p>
+</section>
+</section>
+<section id="navigation">
+<h2>Navigation<a class="headerlink" href="#navigation" title="Permalink to this headline"></a></h2>
+<a class="reference internal image-reference" href="../_images/navigationicon.png"><img alt="../_images/navigationicon.png" src="../_images/navigationicon.png" style="width: 100px;" /></a>
+<p>The default navigation mode is Earth control. Potree viewer will also save the previous selected navigation mode as the default navigation mode when the viewer is loaded next time.</p>
+<section id="earth-control">
+<h3>Earth Control<a class="headerlink" href="#earth-control" title="Permalink to this headline"></a></h3>
+<a class="reference internal image-reference" href="../_images/earth_controls_1.png"><img alt="../_images/earth_controls_1.png" src="../_images/earth_controls_1.png" style="width: 100px;" /></a>
+<p>Earth control navigated as anchored to the pointcloud. Pressing mouse left button pans the pointcloud, mouse wheel controls zoom, and right button orbits the pointcloud.
+Pressing “Ctrl”,the left mouse button changes the direction of the view.</p>
+<center>
+  <video controls src="../_static/earthcontrol.mp4" width ="500" height="300"></video>
+</center></section>
+<section id="fly-control">
+<h3>Fly control<a class="headerlink" href="#fly-control" title="Permalink to this headline"></a></h3>
+<a class="reference internal image-reference" href="../_images/fps_controls.png"><img alt="../_images/fps_controls.png" src="../_images/fps_controls.png" style="width: 100px;" /></a>
+<p>Fly control moves the view as in a bird eyes controled by the keyboard. Keys “W” and “S” moves forward and backwards, respectively and in the direction of the view,
+while “A” and “D” moves left and right respectively.</p>
+<p>Also, the “R” and “F” keys moves the view up and down. The mouse left button changes the direction of the view, mouse wheel controls the speed for these movements,
+and right button moves the view in the XYZ axis.</p>
+<center>
+  <video controls src="../_static/flycontrol.mp4" width ="500" height="300"></video>
+</center></section>
+</section>
+<section id="screenshot">
+<h2>Screenshot<a class="headerlink" href="#screenshot" title="Permalink to this headline"></a></h2>
+<a class="reference internal image-reference" href="../_images/screenshot.png"><img alt="../_images/screenshot.png" src="../_images/screenshot.png" style="width: 100px;" /></a>
+<p>Screenshot icon is used to get a screen print and save it locally. It takes screenshots without any background, but contains the result of measurements.</p>
+</section>
+<section id="point-budget-slider">
+<h2>Point Budget Slider<a class="headerlink" href="#point-budget-slider" title="Permalink to this headline"></a></h2>
+<a class="reference internal image-reference" href="../_images/pointbudget_slider.png"><img alt="../_images/pointbudget_slider.png" src="../_images/pointbudget_slider.png" style="width: 400px; height: 60px;" /></a>
+<p>The point budget limits the number of points loaded and rendered at any given time, which helps to adapt performance requirements to the capabilities of different hardware.
+It gives you a complete version of point clouds.</p>
+<p>Potree viewer will save the previous selected point budget as the default point budget when the viewer is loaded next time.</p>
+<center>
+  <video controls src="../_static/Pointbudget.mp4" width ="500" height="300"></video>
+</center></section>
+<section id="display-options">
+<h2>Display Options<a class="headerlink" href="#display-options" title="Permalink to this headline"></a></h2>
+<a class="reference internal image-reference" href="../_images/corlorbutton.png"><img alt="../_images/corlorbutton.png" src="../_images/corlorbutton.png" style="width: 200px; height: 60px;" /></a>
+<p>The display options button is a toggle button allows users to switch between RGB and Intensity modes.</p>
+<section id="rgb">
+<h3>RGB<a class="headerlink" href="#rgb" title="Permalink to this headline"></a></h3>
+<p>Display each point based on the object colors in 360 images.</p>
+<a class="reference internal image-reference" href="../_images/corlored.png"><img alt="../_images/corlored.png" src="../_images/corlored.png" style="width: 500px; height: 300px;" /></a>
+</section>
+<section id="intensity">
+<h3>Intensity<a class="headerlink" href="#intensity" title="Permalink to this headline"></a></h3>
+<p>Display each point based on the laser pulse return intensity value. Scanners identify an intensity value for each point during the capture process.
+Intenisity is a measure of point reflectivity, which can vary depending upon color, surface texture, surface angle and the environment.</p>
+<a class="reference internal image-reference" href="../_images/intensitied.png"><img alt="../_images/intensitied.png" src="../_images/intensitied.png" style="width: 500px; height: 300px;" /></a>
+<center>
+  <video controls src="../_static/RGB.mp4" width ="500" height="300"></video>
+</center></section>
+</section>
+<section id="images">
+<h2>360 Images<a class="headerlink" href="#images" title="Permalink to this headline"></a></h2>
+<a class="reference internal image-reference" href="../_images/360.png"><img alt="../_images/360.png" src="../_images/360.png" style="width: 200px; height: 60px;" /></a>
+<p>To turn on/off displaying of 360 images,click the 360images toggle button.360 Images can add meaningful context to collected data and fill in the information lacking in the point cloud.</p>
+<p>360 Imagess allow you to see actual 360 images of the point cloud. These images are displayed as white sphere in the viewr, click on any of them to focus it.
+To unfocus 360 images, click right upper corner exit button or press “Escape”.
+Opacity slider changes the opacity of point cloud. This view will give you an overlook on how the territory looked like and what objects could be captured.</p>
+<center>
+  <video controls src="../_static/360image.mp4" width ="500" height="300"></video>
+</center></section>
+</section>
+
+
+           </div>
+          </div>
+          <footer><div class="rst-footer-buttons" role="navigation" aria-label="Footer">
+        <a href="../index.html" class="btn btn-neutral float-left" title="Potree Viewer User Manual" accesskey="p" rel="prev"><span class="fa fa-arrow-circle-left" aria-hidden="true"></span> Previous</a>
+        <a href="Sidebar.html" class="btn btn-neutral float-right" title="Sidebar" accesskey="n" rel="next">Next <span class="fa fa-arrow-circle-right" aria-hidden="true"></span></a>
+    </div>
+
+  <hr/>
+
+  <div role="contentinfo">
+    <p>&#169; Copyright 2022, Capia As.</p>
+  </div>
+
+  Built with <a href="https://www.sphinx-doc.org/">Sphinx</a> using a
+    <a href="https://github.com/readthedocs/sphinx_rtd_theme">theme</a>
+    provided by <a href="https://readthedocs.org">Read the Docs</a>.
+   
+
+</footer>
+        </div>
+      </div>
+    </section>
+  </div>
+  <script>
+      jQuery(function () {
+          SphinxRtdTheme.Navigation.enable(true);
+      });
+  </script> 
+
+</body>
+</html>

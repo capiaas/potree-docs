@@ -1,0 +1,299 @@
+<!DOCTYPE html>
+<html class="writer-html5" lang="en" >
+<head>
+  <meta charset="utf-8" /><meta name="generator" content="Docutils 0.17.1: http://docutils.sourceforge.net/" />
+
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Sidebar &mdash; potree  documentation</title>
+      <link rel="stylesheet" href="../_static/pygments.css" type="text/css" />
+      <link rel="stylesheet" href="../_static/css/theme.css" type="text/css" />
+  <!--[if lt IE 9]>
+    <script src="../_static/js/html5shiv.min.js"></script>
+  <![endif]-->
+  
+        <script data-url_root="../" id="documentation_options" src="../_static/documentation_options.js"></script>
+        <script src="../_static/jquery.js"></script>
+        <script src="../_static/underscore.js"></script>
+        <script src="../_static/doctools.js"></script>
+    <script src="../_static/js/theme.js"></script>
+    <link rel="index" title="Index" href="../genindex.html" />
+    <link rel="search" title="Search" href="../search.html" />
+    <link rel="prev" title="User Interface" href="Webinterface.html" /> 
+</head>
+
+<body class="wy-body-for-nav"> 
+  <div class="wy-grid-for-nav">
+    <nav data-toggle="wy-nav-shift" class="wy-nav-side">
+      <div class="wy-side-scroll">
+        <div class="wy-side-nav-search" >
+            <a href="../index.html" class="icon icon-home"> potree
+          </a>
+<div role="search">
+  <form id="rtd-search-form" class="wy-form" action="../search.html" method="get">
+    <input type="text" name="q" placeholder="Search docs" />
+    <input type="hidden" name="check_keywords" value="yes" />
+    <input type="hidden" name="area" value="default" />
+  </form>
+</div>
+        </div><div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="Navigation menu">
+              <p class="caption" role="heading"><span class="caption-text">Contents:</span></p>
+<ul class="current">
+<li class="toctree-l1"><a class="reference internal" href="Webinterface.html">User Interface</a></li>
+<li class="toctree-l1 current"><a class="current reference internal" href="#">Sidebar</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="#appearance">Appearance</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="#point-budget-slider">Point Budget Slider</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#field-of-view">Field of View</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#eye-dome-lighting">Eye Dome-lighting</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#background">Background</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#splat-quality">Splat Quality</a></li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="#tools">Tools</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="#measurement">Measurement</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#clipping">Clipping</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#navigation">Navigation</a></li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="#scene">Scene</a></li>
+</ul>
+</li>
+</ul>
+
+        </div>
+      </div>
+    </nav>
+
+    <section data-toggle="wy-nav-shift" class="wy-nav-content-wrap"><nav class="wy-nav-top" aria-label="Mobile navigation menu" >
+          <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
+          <a href="../index.html">potree</a>
+      </nav>
+
+      <div class="wy-nav-content">
+        <div class="rst-content">
+          <div role="navigation" aria-label="Page navigation">
+  <ul class="wy-breadcrumbs">
+      <li><a href="../index.html" class="icon icon-home"></a></li>
+      <li class="breadcrumb-item active">Sidebar</li>
+      <li class="wy-breadcrumbs-aside">
+            <a href="../_sources/Contents/Sidebar.rst.txt" rel="nofollow"> View page source</a>
+      </li>
+  </ul>
+  <hr/>
+</div>
+          <div role="main" class="document" itemscope="itemscope" itemtype="http://schema.org/Article">
+           <div itemprop="articleBody">
+             
+  <section id="sidebar">
+<h1>Sidebar<a class="headerlink" href="#sidebar" title="Permalink to this headline"></a></h1>
+<section id="appearance">
+<h2>Appearance<a class="headerlink" href="#appearance" title="Permalink to this headline"></a></h2>
+<section id="point-budget-slider">
+<h3>Point Budget Slider<a class="headerlink" href="#point-budget-slider" title="Permalink to this headline"></a></h3>
+<p>This is the same function as the point budget slider in the Web interface.
+See: <a class="reference external" href="Webinterface.html">Point Budget Slider</a></p>
+</section>
+<section id="field-of-view">
+<h3>Field of View<a class="headerlink" href="#field-of-view" title="Permalink to this headline"></a></h3>
+<p>To control viewable range that what is included within the scene, the field of view can be adjusted. Default value is set to 55 degrees.
+The field of view will determine how much of the pointcloud you can see in your screen.</p>
+<center>
+  <video controls src="../_static/Pointbudget.mp4" width ="500" height="300"></video>
+</center></section>
+<section id="eye-dome-lighting">
+<h3>Eye Dome-lighting<a class="headerlink" href="#eye-dome-lighting" title="Permalink to this headline"></a></h3>
+<p>The Potree Point Cloud 3d viewer module can implement eye dome-lighting, a lighting model that highlights the shapes of objects.</p>
+<p>Eye Dome-lighting group objects, shade their outlines and enhances depth perception in scientific visualization images.</p>
+<p>It is useful for recognition and measurement of structures within pointcloud. It can be modified by adjusting Radius, Strength,
+and Opacity.Those are set to give you tight controls of movement with in the model.</p>
+<p>By default, Eye Dome-Lighting is enabled on Potree 3D viewer, but it can be disabled by clicking on the enable option.</p>
+<center>
+  <video controls src="../_static/Eyedom_lightning.mp4" width ="500" height="300"></video>
+</center></section>
+<section id="background">
+<h3>Background<a class="headerlink" href="#background" title="Permalink to this headline"></a></h3>
+<p>Potree 3D viewed background can be modified with following available options:</p>
+<ul class="simple">
+<li><p>Street Map(Now this section is null)</p></li>
+<li><p>Skybox</p></li>
+<li><p>Gradient</p></li>
+<li><p>Black and white</p></li>
+</ul>
+<center>
+  <video controls src="../_static/Back_ground.mp4" width ="500" height="300"></video>
+</center></section>
+<section id="splat-quality">
+<h3>Splat Quality<a class="headerlink" href="#splat-quality" title="Permalink to this headline"></a></h3>
+<p>Splat quality can be adjusted to standard or high quality, to improve the appearance of pointcloud.</p>
+<p>Standard/High quality are using different splat method which will give you the different viewing experience on your computer. Choose the one that looks better for you.</p>
+<p><em>Min node size - impacts the point density of the nodes represented</em>.</p>
+<p><em>Box - Displays the boxes of the nodes</em>.</p>
+<p><em>Lock view - Lock the point cloud view, preventing to load or unload points to the model</em>.</p>
+<center>
+  <video controls src="../_static/Splat_quality.mp4" width ="500" height="300"></video>
+</center></section>
+</section>
+<section id="tools">
+<h2>Tools<a class="headerlink" href="#tools" title="Permalink to this headline"></a></h2>
+<section id="measurement">
+<h3>Measurement<a class="headerlink" href="#measurement" title="Permalink to this headline"></a></h3>
+<img alt="../_images/Tools.png" class="align-center" src="../_images/Tools.png" />
+<p>Potree viewer provides several tools for measurement. This tool set consist of 12 elements. It also has controls for showing or hiding the resulting measurement labels.</p>
+<p>Measurements are performed by use of left clicking the mouse on the desired position and right clicking is needed to terminate the process. Angle, Point,Distance,Height,Circle
+measurement tools also can be found in the web interface. To remove all measurements that have been made, click on the red cross or press “Escape”.</p>
+<p><strong>Angle</strong></p>
+<a class="reference internal image-reference" href="../_images/angle.png"><img alt="../_images/angle.png" src="../_images/angle.png" style="width: 100px;" /></a>
+<p>This is the same function as the angle measurement tool in the Web interface.
+See: <a class="reference external" href="Webinterface.html">Angle</a></p>
+<center>
+  <video controls src="../_static/Angle.mp4" width ="500" height="300"></video>
+</center><p><strong>Point</strong></p>
+<a class="reference internal image-reference" href="../_images/point.png"><img alt="../_images/point.png" src="../_images/point.png" style="width: 100px;" /></a>
+<p>This is the same function as the point measurement tool in the Web interface.
+See: <a class="reference external" href="Webinterface.html">Point</a></p>
+<center>
+  <video controls src="../_static/Point.mp4" width ="500" height="300"></video>
+</center><p><strong>Distance</strong></p>
+<a class="reference internal image-reference" href="../_images/distance.png"><img alt="../_images/distance.png" src="../_images/distance.png" style="width: 100px;" /></a>
+<p>This is the same function as the distance measurement tool in the Web interface.
+See: <a class="reference external" href="Webinterface.html">Distance</a></p>
+<center>
+  <video controls src="../_static/Distance.mp4" width ="500" height="300"></video>
+</center><p><strong>Height</strong></p>
+<a class="reference internal image-reference" href="../_images/height.png"><img alt="../_images/height.png" src="../_images/height.png" style="width: 100px;" /></a>
+<p>This is the same function as the height measurement tool in the Web interface.
+See: <a class="reference external" href="Webinterface.html">Height</a></p>
+<center>
+  <video controls src="../_static/Height.mp4" width ="500" height="300"></video>
+</center><p><strong>Circle</strong></p>
+<a class="reference internal image-reference" href="../_images/circle.png"><img alt="../_images/circle.png" src="../_images/circle.png" style="width: 100px;" /></a>
+<p>This is the same function as the circle measurement tool in the Web interface.
+See: <a class="reference external" href="Webinterface.html">Circle</a></p>
+<center>
+  <video controls src="../_static/Circle.mp4" width ="500" height="300"></video>
+</center><p><strong>Azimuth</strong></p>
+<p>This tool measures the azimuthal angle of a line. This line is formed by two points selected by the user, the angle is measured in degrees,
+clockwise from 0 to 360 and starting from the geographical north. To start a measurement, click on the azimuth icon and then click the first position for the center point,
+then click the second position to complete the measurement.</p>
+<p>More information can also be obtained from selecting this element under the scene section.</p>
+<center>
+  <video controls src="../_static/Azimuth.mp4" width ="500" height="300"></video>
+</center><p><strong>Area</strong></p>
+<p>This tool measures the horizontal area formed by a polygon. To start a measurement, click on the area icon and start clicking on the positions forming the desired polygon (three or more).
+Right click to finish measurement.</p>
+<p>Further information can also be obtained from selecting this element under the scene section.</p>
+<center>
+  <video controls src="../_static/Area.mp4" width ="500" height="300"></video>
+</center><p><strong>Volume (cube)</strong></p>
+<p>This tool measures the horizontal area formed by a cube. To start a meaurement, click on the volume(cube) icon and click on the desired position in pointcloud to place the cube.
+It is possible to relocate, rescale and rotate the cube using the displayed handlers. click the eye icons on the cube can view cube from the angle normal to the plane.
+Right click to finish the measurement.
+More information can also be obtained from selecting this element under the scene section.</p>
+<center>
+  <video controls src="../_static/Volume_cube.mp4" width ="500" height="300"></video>
+</center><p><strong>Volume (sphere)</strong></p>
+<p>This tool measures the volume formed by a sphere. To start a measurement, click on the volume (sphere) icon and click on the model to place the sphere. It is possible to relocate,
+rescale and rotate the sphere using the displayed handlers. Right click to finish measurement.
+Further information can also be obtained from selecting this element under the scene section.</p>
+<center>
+  <video controls src="../_static/Volume_sphere.mp4" width ="500" height="300"></video>
+</center><p><strong>Height profile</strong></p>
+<p>The tool icon looks like a multicolored M.
+This tool creates a height profile formed by a line on the model. To start a measurement, click on the Height profile icon and then form a line on the pointcloud by
+clicking on the desired points (two or more).</p>
+<p>When you mouse over the point cloud data, you should now see a red ball attached to your mouse cursor. This allows you to drop nodes and establish the location of your profile.
+When you want to finalize your profile double click on the last node. Once a profile is finalized, you can still change its location by clicking on the red nodes and dragging
+them to a different location.</p>
+<p>Further information and options, such as <code class="docutils literal notranslate"><span class="pre">Show</span> <span class="pre">2d</span> <span class="pre">Profile</span></code>, can also been obtained from selecting this element under the scene section.</p>
+<p>A profile of the lidar data should now be visible at the bottom of the screen. The profile will also update in real time if you move the profile throughout the data.</p>
+<p>The save button in the upper right corner of the profile window will download a las file(3D) containing the points from the profile or a CSV file(2D) containing the metadata of points.
+This is useful for extracting the data you want to use for further analysis.</p>
+<center>
+  <video controls src="../_static/Height_profile.mp4" width ="500" height="300"></video>
+</center><p><strong>Annotation</strong></p>
+<p>This tool creates an annotation label on a highlighted point on the pointcloud. To label a new annotation, click on the annotation icon and then click on the desired position.
+To edit the annotation, select this element under the scene section, then edit Title and Description. Click the annotation can zoom to the annotation.</p>
+<center>
+  <video controls src="../_static/Annotation.mp4" width ="500" height="300"></video>
+</center><p><strong>Remove measurements</strong></p>
+<p>This tool removes all measurements on the pointcloud. To remove all measurement, click on the <code class="docutils literal notranslate"><span class="pre">Remove</span> <span class="pre">all</span> <span class="pre">measurements</span></code>  icon or press “Escape” on the keyboard.</p>
+</section>
+<section id="clipping">
+<h3>Clipping<a class="headerlink" href="#clipping" title="Permalink to this headline"></a></h3>
+<p>Point cloud can be clipped by selecting an area. Clipping options include <strong>None / Highlight / Inside /outside</strong>.</p>
+<p>To clip a point cloud, click on the volume clip icon, place the cube on the model and relocate, rescale, and rotate to contain the desired area. Highlight is set by default as the clipping method.</p>
+<p>If only the points contained within the cube needs to be displayed, click on “Inside”, otherwise click on “Outside”.</p>
+<p>To remove the clipping volume or polygons click on the <code class="docutils literal notranslate"><span class="pre">Remove</span> <span class="pre">all</span> <span class="pre">clipping</span> <span class="pre">volumes</span></code> icon.</p>
+<center>
+  <video controls src="../_static/Clipping.mp4" width ="500" height="300"></video>
+</center></section>
+<section id="navigation">
+<h3>Navigation<a class="headerlink" href="#navigation" title="Permalink to this headline"></a></h3>
+<p>Potree viewer have 4 Navigation controls which define its behavior.</p>
+<p><strong>Earth Control</strong></p>
+<a class="reference internal image-reference" href="../_images/earth_controls_1.png"><img alt="../_images/earth_controls_1.png" src="../_images/earth_controls_1.png" style="width: 100px;" /></a>
+<p>This is the same navigation mode as the earthcontrol in the Web interface.
+See: <a class="reference external" href="Webinterface.html">Earth Control</a></p>
+<center>
+  <video controls src="../_static/earthcontrol.mp4" width ="500" height="300"></video>
+</center><p><strong>Fly control</strong></p>
+<p>This is the same navigation mode as the flycontrol in the Web interface.
+See: <a class="reference external" href="Webinterface.html">Fly control</a></p>
+<center>
+  <video controls src="../_static/flycontrol.mp4" width ="500" height="300"></video>
+</center><p><strong>Helicopter control</strong></p>
+<a class="reference internal image-reference" href="../_images/helicopter_controls.png"><img alt="../_images/helicopter_controls.png" src="../_images/helicopter_controls.png" style="width: 100px;" /></a>
+<p>Helicopter control moves the camera as in an aircraft using the keyboard. Keys “W” and “S” moves forward and backwards, respectively restricted in a horizontal plane, while “A” and “D” moves left and right respectively.</p>
+<p>Also, the “R” and “F” keys moves the camera up and down. The mouse left button changes the direction of the camera, mouse wheel controls the speed for these movements, and right button moves the model in the XY axis.</p>
+<p><strong>Orbit Control</strong></p>
+<a class="reference internal image-reference" href="../_images/orbit_controls.png"><img alt="../_images/orbit_controls.png" src="../_images/orbit_controls.png" style="width: 100px;" /></a>
+<p>Orbit Control is similar to earthcontrol. The mouse left button orbits the model, the wheel controls zoom, and the right button moves the model in the XYZ axis.</p>
+<center>
+  <video controls src="../_static/orbitcontrol.mp4" width ="500" height="300"></video>
+</center><p><strong>Full extent</strong></p>
+<p>Full extent button restores all pointcloud view.</p>
+<p><strong>Navigation cube</strong></p>
+<p>Navigation cube displays a wireframe cube from different direction. Click the icon to view pointcloud from the specific direction.</p>
+<p><strong>Compass</strong></p>
+<p>Compass button displays/hides a compass on the upper right corner.</p>
+</section>
+</section>
+<section id="scene">
+<h2>Scene<a class="headerlink" href="#scene" title="Permalink to this headline"></a></h2>
+<p>The Scene section displays a file tree containing all the scene elements. Elements are arranged in six groups,
+which are <strong>Point clouds / Measurements / Annotations / Other / Vector / Images</strong>.</p>
+<p>Each element within these groups have subtrees that can be selected to get more information and control its properties.</p>
+<a class="reference internal image-reference" href="../_images/scene.png"><img alt="../_images/scene.png" class="align-center" src="../_images/scene.png" style="width: 50%;" /></a>
+</section>
+</section>
+
+
+           </div>
+          </div>
+          <footer><div class="rst-footer-buttons" role="navigation" aria-label="Footer">
+        <a href="Webinterface.html" class="btn btn-neutral float-left" title="User Interface" accesskey="p" rel="prev"><span class="fa fa-arrow-circle-left" aria-hidden="true"></span> Previous</a>
+    </div>
+
+  <hr/>
+
+  <div role="contentinfo">
+    <p>&#169; Copyright 2022, Capia As.</p>
+  </div>
+
+  Built with <a href="https://www.sphinx-doc.org/">Sphinx</a> using a
+    <a href="https://github.com/readthedocs/sphinx_rtd_theme">theme</a>
+    provided by <a href="https://readthedocs.org">Read the Docs</a>.
+   
+
+</footer>
+        </div>
+      </div>
+    </section>
+  </div>
+  <script>
+      jQuery(function () {
+          SphinxRtdTheme.Navigation.enable(true);
+      });
+  </script> 
+
+</body>
+</html>

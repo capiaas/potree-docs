@@ -6,24 +6,23 @@ Potree Viewer User Manual
 
 Potree Viewer
 
-* a point cloud viewer enabling exploration and measurement of large LIDAR datasets
+* A point cloud viewer enabling exploration and measurement of large LIDAR datasets
 
-* designed to be efficient in a web browser
+* Designed to be efficient in a web browser
 
-Use Potree Converter to convert point cloud data to a format compatible with Potree Viewer.
+The main purpose of the Potree Viewr is to make a web accessible version of the point clouds.
 
-The main purpose of the potree is to make a web accessible version of the point clouds.
-
-How to View Data
-----------------------------
+How to View Data (Default Earthcontrol)
+------------------------------------------------
 
 * Double Click- sets center of rotation and zooms into that point.
-* Left Click, hold, and move mouse, rotates the view
-* Middle Scroll Wheel – Zooms in and out
-* Right Click, hold, and move mouse pans in the scene
+* Left Mouse Press- pan the view
+* Middle Scroll Wheel- Zooms in and out
+* Right Mouse Press- rotate the view around the center point
+* Left Mouse Press(Pressing Ctrl)- rotate the view base on the camera position
 
 
-https://cloud.capia.no/
+Return homepage: https://cloud.capia.no/
 
 
 
@@ -32,9 +31,11 @@ https://cloud.capia.no/
    :hidden:
    :caption: Contents:
    
-   Contents/Appearence
-   Contents/Tools
-   Contents/Scene
+   Contents/Webinterface
+   Contents/Sidebar
+
+
+   
    
  
    

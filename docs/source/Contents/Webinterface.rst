@@ -14,18 +14,18 @@ time stamps,Number of points and the length of the dataset.
 
 Measurements
 ==================================
-.. image:: /images/toolicon.png
-   :width: 100
+.. |pictool| image:: /images/toolicon.png
+   :width: 50
 
-Measurements are performed by use of left click on the mouse on the desired position and right click is needed to terminate
+|pictool| Measurements are performed by use of left click on the mouse on the desired position and right click is needed to terminate
 the process.Measurement can also be found under the tools section in the sidebar.
  
 Angle
 ------------------------       
-.. image:: /images/angle.png
-   :width: 100
+.. |picangle| image:: /images/angle.png
+   :width: 50
 
-This tool measures the tridimensional angle formed by the lines connecting three points.To start a measurement, click on the 
+|picangle| This tool measures the tridimensional angle formed by the lines connecting three points.To start a measurement, click on the 
 angle measurement icon, then left click on three desired position and the process will be automatically completed.The unit of
 angle measurement is degree.
 
@@ -42,10 +42,10 @@ All red points are draggable to adjust their positions.
 
 Point
 ------------------------
-.. image:: /images/point.png
-   :width: 100
+.. |picpoint| image:: /images/point.png
+   :width: 50
 
-This tool set a point at desired position and display its XYZ coordinate. To start a measurement, click on the point measurement
+|picpoint| This tool set a point at desired position and display its XYZ coordinate. To start a measurement, click on the point measurement
 icon, then click on the desired position and the process will be completed. All red points are draggable to adjust their 
 positions.
 
@@ -60,10 +60,10 @@ positions.
 
 Distance
 ------------------------
-.. image:: /images/distance.png
-   :width: 100
+.. |picdistance| image:: /images/distance.png
+   :width: 50
 
-This tool measures the tridimensional distance of the lines connecting a series of points. To start a measurement, click on the 
+|picdistance| This tool measures the tridimensional distance of the lines connecting a series of points. To start a measurement, click on the 
 distance measurement icon and start clicking on the desired position (two or more). Right click to complete the measurement process. 
 The unit of distance measurement is meter.
 
@@ -83,10 +83,10 @@ All red points are draggable to adjust their positions.
 
 Height
 ----------------------
-.. image:: /images/height.png
-   :width: 100
+.. |picheight| image:: /images/height.png
+   :width: 50
 
-This tool measures the vertical distance between two points. To start a measurement, click on the height measurement icon and 
+|picheight| This tool measures the vertical distance between two points. To start a measurement, click on the height measurement icon and 
 then click on the desired two positions. The process will be automatically completed. More information can also be obtained from 
 selecting this element under the scene section in the sidebar.
 
@@ -104,10 +104,10 @@ All red points are draggable to adjust their positions.
 
 Circle
 -----------------
-.. image:: /images/circle.png
-   :width: 100
+.. |piccircle| image:: /images/circle.png
+   :width: 50
 
-This tool measures the radius of a circle formed by three points. To start a measurement, click on the circle measurement icon 
+|piccircle| This tool measures the radius of a circle formed by three points. To start a measurement, click on the circle measurement icon 
 and then click on three desired positions.The process will be automatically completed. All red points are draggable to adjust 
 their positions.
 
@@ -123,27 +123,27 @@ More information such as Circumference can also be obtained from selecting this 
 
 Remove all measurements
 -------------------------
-.. image:: /images/trash.png
-   :width: 100
+.. |pictrash| image:: /images/trash.png
+   :width: 50
 
-To remove all measurements has been made, click on the trashbin icon or press "Escape"
+|pictrash| To remove all measurements has been made, click on the trashbin icon or press "Escape"
 
 
 Navigation
 ==================================
-.. image:: /images/navigationicon.png
-   :width: 100
+.. |picnavigation| image:: /images/navigationicon.png
+   :width: 50
 
-The default navigation mode is Earth control. Potree viewer will always save the previous selected navigation mode as the default 
+|picnavigation| The default navigation mode is Earth control. Potree viewer will always save the previous selected navigation mode as the default 
 navigation mode when the viewer is loaded next time.
 
 
 Earth Control
 ----------------------------------
-.. image:: /images/earth_controls_1.png
-   :width: 100
+.. |picearth| image:: /images/earth_controls_1.png
+   :width: 50
 
-Earth control navigated as anchored to the pointcloud. Mouse left button pans the pointcloud, mouse wheel controls zoom, 
+|picearth| Earth control navigated as anchored to the pointcloud. Mouse left button pans the pointcloud, mouse wheel controls zoom, 
 and right button orbits the pointcloud.
 
 Pressing "Ctrl", key and holding the left mouse button changes the direction of the view.
@@ -156,10 +156,10 @@ Pressing "Ctrl", key and holding the left mouse button changes the direction of 
 
 Fly control
 ----------------------------------
-.. image:: /images/fps_controls.png
-   :width: 100
+.. |picfly| image:: /images/fps_controls.png
+   :width: 50
 
-Fly control moves the view as in a bird eyes using the keyboard. Keys "W" and "S" moves forward and backwards, respectively
+|picfly| Fly control moves the view as in a bird eyes using the keyboard. Keys "W" and "S" moves forward and backwards, respectively
 and in the direction of the view, while "A" and "D" moves left and right respectively. 
 
 Also, the "R" and "F" keys moves the view up and down. The mouse left button changes the direction of the view, mouse wheel
@@ -173,10 +173,10 @@ controls the speed for these movements and right button moves the view in the XY
 
 Screenshot
 ==================================
-.. image:: /images/screenshot.png
-   :width: 100
+.. |picscreenshot| image:: /images/screenshot.png
+   :width: 50
 
-Screenshot icon is used to get a screen print and save it locally. It takes screenshots without any background, but contains 
+|picscreenshot| Screenshot icon is used to get a screen print and save it locally. It takes screenshots without any background, but contains 
 the result of measurements.
 
 

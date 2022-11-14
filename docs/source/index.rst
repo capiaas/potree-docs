@@ -12,7 +12,7 @@ Potree Viewer
 
 The main purpose of the Potree Viewr is to make a web accessible version of the point clouds.
 
-How to View Data (Default Earthcontrol)
+How to Navigate (Default Earthcontrol)
 ------------------------------------------------
 
 * Double Click- sets center of rotation and zooms into that point.
@@ -22,13 +22,12 @@ How to View Data (Default Earthcontrol)
 * Left Mouse Press(Pressing Ctrl)- rotate the view base on the camera position
 
 
-Return homepage: https://cloud.capia.no/
+Go to Capai Selector: https://cloud.capia.no/
 
 
 
 .. toctree::
    :maxdepth: 2
-   :hidden:
    :caption: Contents:
    
    Contents/Webinterface

@@ -17,7 +17,9 @@ Measurements
 .. |pictool| image:: /images/toolicon.png
    :width: 50
 
-|pictool| Measurements are performed by use of left click on the mouse on the desired position and right click is needed to terminate
+|pictool| **Measurement Tools**
+
+Measurements are performed by use of left click on the mouse on the desired position and right click is needed to terminate
 the process.Measurement can also be found under the tools section in the sidebar.
  
 Angle
@@ -25,7 +27,9 @@ Angle
 .. |picangle| image:: /images/angle.png
    :width: 50
 
-|picangle| This tool measures the tridimensional angle formed by the lines connecting three points.To start a measurement, click on the 
+|picangle| **Angle Measurement Tool**
+
+This tool measures the tridimensional angle formed by the lines connecting three points.To start a measurement, click on the 
 angle measurement icon, then left click on three desired position and the process will be automatically completed.The unit of
 angle measurement is degree.
 
@@ -45,7 +49,9 @@ Point
 .. |picpoint| image:: /images/point.png
    :width: 50
 
-|picpoint| This tool set a point at desired position and display its XYZ coordinate. To start a measurement, click on the point measurement
+|picpoint| **Point Measurement Tool**
+
+This tool set a point at desired position and display its XYZ coordinate. To start a measurement, click on the point measurement
 icon, then click on the desired position and the process will be completed. All red points are draggable to adjust their 
 positions.
 
@@ -63,7 +69,9 @@ Distance
 .. |picdistance| image:: /images/distance.png
    :width: 50
 
-|picdistance| This tool measures the tridimensional distance of the lines connecting a series of points. To start a measurement, click on the 
+|picdistance| **Distance Measurement Tool** 
+
+This tool measures the tridimensional distance of the lines connecting a series of points. To start a measurement, click on the 
 distance measurement icon and start clicking on the desired position (two or more). Right click to complete the measurement process. 
 The unit of distance measurement is meter.
 
@@ -86,7 +94,9 @@ Height
 .. |picheight| image:: /images/height.png
    :width: 50
 
-|picheight| This tool measures the vertical distance between two points. To start a measurement, click on the height measurement icon and 
+|picheight| **Height Measurement Tool** 
+
+This tool measures the vertical distance between two points. To start a measurement, click on the height measurement icon and 
 then click on the desired two positions. The process will be automatically completed. More information can also be obtained from 
 selecting this element under the scene section in the sidebar.
 
@@ -107,7 +117,9 @@ Circle
 .. |piccircle| image:: /images/circle.png
    :width: 50
 
-|piccircle| This tool measures the radius of a circle formed by three points. To start a measurement, click on the circle measurement icon 
+|piccircle| **Circle Measurement Tool** 
+
+This tool measures the radius of a circle formed by three points. To start a measurement, click on the circle measurement icon 
 and then click on three desired positions.The process will be automatically completed. All red points are draggable to adjust 
 their positions.
 
@@ -121,12 +133,14 @@ More information such as Circumference can also be obtained from selecting this 
 
 
 
-Remove all measurements
+Remove 
 -------------------------
 .. |pictrash| image:: /images/trash.png
    :width: 50
 
-|pictrash| To remove all measurements has been made, click on the trashbin icon or press "Escape"
+|pictrash| **Remove all Measurements** 
+
+To remove all measurements has been made, click on the trashbin icon or press "Escape"
 
 
 Navigation
@@ -134,7 +148,9 @@ Navigation
 .. |picnavigation| image:: /images/navigationicon.png
    :width: 50
 
-|picnavigation| The default navigation mode is Earth control. Potree viewer will always save the previous selected navigation mode as the default 
+|picnavigation| **Navigation Modes**
+
+The default navigation mode is Earth control. Potree viewer will always save the previous selected navigation mode as the default 
 navigation mode when the viewer is loaded next time.
 
 
@@ -143,7 +159,9 @@ Earth Control
 .. |picearth| image:: /images/earth_controls_1.png
    :width: 50
 
-|picearth| Earth control navigated as anchored to the pointcloud. Mouse left button pans the pointcloud, mouse wheel controls zoom, 
+|picearth| **Earth Control**
+
+Earth control navigated as anchored to the pointcloud. Mouse left button pans the pointcloud, mouse wheel controls zoom, 
 and right button orbits the pointcloud.
 
 Pressing "Ctrl", key and holding the left mouse button changes the direction of the view.
@@ -159,7 +177,9 @@ Fly control
 .. |picfly| image:: /images/fps_controls.png
    :width: 50
 
-|picfly| Fly control moves the view as in a bird eyes using the keyboard. Keys "W" and "S" moves forward and backwards, respectively
+|picfly| **FLy Control**
+
+Fly control moves the view as in a bird eyes using the keyboard. Keys "W" and "S" moves forward and backwards, respectively
 and in the direction of the view, while "A" and "D" moves left and right respectively. 
 
 Also, the "R" and "F" keys moves the view up and down. The mouse left button changes the direction of the view, mouse wheel
@@ -176,7 +196,9 @@ Screenshot
 .. |picscreenshot| image:: /images/screenshot.png
    :width: 50
 
-|picscreenshot| Screenshot icon is used to get a screen print and save it locally. It takes screenshots without any background, but contains 
+|picscreenshot| **Screenshot**
+
+Screenshot icon is used to get a screen print and save it locally. It takes screenshots without any background, but contains 
 the result of measurements.
 
 
@@ -226,18 +248,10 @@ Intenisity is a measure of point reflectivity, which can vary depending upon col
    :width: 500
    :height: 300
 
-.. raw:: html
-
-  <center>
-    <video controls src="../_static/RGB.mp4" width ="500" height="300"></video>
-  </center>
 
 360 Images
 ==================================
 
-.. image:: /images/360.png
-   :width: 200
-   :height: 60
    
 360 Imagess allow you to see actual 360 images of the point cloud. These images are displayed as white sphere in the viewr, 
 click on any of them to enter in to it.   
@@ -255,3 +269,12 @@ could be captured.
   <center>
     <video controls src="../_static/360image.mp4" width ="500" height="300"></video>
   </center>
+
+Keyboard Shortcuts
+==================================
+**Key P**
+For selected pointcloud datasets, the animation will be loaded automatically. Pressing "P" key will start / pause / resume the animation from current view position.
+Use "Speed Slider" to adjust the animation speed.
+
+**Key M**
+To start record the screen, press "M" key. Then select the window that you want to record. Press "M" key again / click "Stop sharing" to stop recording and save the video locally.

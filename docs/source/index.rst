@@ -10,7 +10,7 @@ Potree Viewer
 
 * Designed to be efficient in a web browser
 
-The main purpose of the Potree Viewr is to make a web accessible version of the point clouds.
+The main purpose of the Potree Viewer is to make a web accessible version of the point clouds.
 
 
 

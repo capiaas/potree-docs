@@ -20,7 +20,7 @@ Measurements
 |pictool| **Measurement Tools**
 
 Measurements are performed by use of left click on the mouse on the desired position and right click is needed to terminate
-the process.Measurement can also be found under the tools section in the sidebar.
+the process. Measurement can also be found under the tools section in the sidebar.
  
 Angle
 ------------------------       
@@ -140,7 +140,7 @@ Remove
 
 |pictrash| **Remove all Measurements** 
 
-To remove all measurements has been made, click on the trashbin icon or press "Escape"
+To remove all measurements has been made, click on the trashbin icon or press "Escape".
 
 
 Navigation
@@ -232,6 +232,7 @@ The display options button is a toggle button allows users to switch between RGB
 
 RGB
 ----------------------------------
+
 Display each point based on the object colors in 360 images.
 
 .. image:: /images/corlored.png
@@ -251,7 +252,6 @@ Intenisity is a measure of point reflectivity, which can vary depending upon col
 
 360 Images
 ==================================
-
    
 360 Imagess allow you to see actual 360 images of the point cloud. These images are displayed as white sphere in the viewr, 
 click on any of them to enter in to it.   
@@ -272,9 +272,10 @@ could be captured.
 
 Keyboard Shortcuts
 ==================================
+
 **Key P**
-For selected pointcloud datasets, the animation will be loaded automatically. Pressing "P" key will start / pause / resume the animation from current view position.
+For selected pointcloud datasets, the animation will load automatically. Pressing "P" key will start / pause / resume the animation from current view position.
 Use "Speed Slider" to adjust the animation speed.
 
 **Key M**
-To start record the screen, press "M" key. Then select the window that you want to record. Press "M" key again / click "Stop sharing" to stop recording and save the video locally.
+Hit the "M" key to start screen recording. Then select the window that you want to record. To stop screen recording and save the video locally hit the "M" key again / click "Stop sharing". 

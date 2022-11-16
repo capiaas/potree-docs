@@ -167,8 +167,6 @@ See: `Height <Webinterface.html>`__
 
 
 
-
-
 **Circle**
 
 .. image:: /images/circle.png

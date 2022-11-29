@@ -1,16 +1,16 @@
 
 
-Potree Viewer User Manual
+Capia 3D User Manual
 ==================================
 
 
-Potree Viewer
+Capia 3D
 
 * A point cloud viewer enabling exploration and measurement of large LIDAR datasets
 
 * Designed to be efficient in a web browser
 
-The main purpose of the Potree Viewer is to make a web accessible version of the point clouds.
+The main purpose of the Capia 3D is to make a web accessible version of the point clouds.
 
 
 

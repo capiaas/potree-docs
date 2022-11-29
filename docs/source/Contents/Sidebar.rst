@@ -26,14 +26,14 @@ The field of view will determine how much of the pointcloud you can see in your 
 Eye Dome-lighting
 ------------------------
 
-The Potree Point Cloud viewer module can implement eye dome-lighting, a lighting model that highlights the shapes of objects.
+Capia 3D module can implement eye dome-lighting, a lighting model that highlights the shapes of objects.
 
 Eye Dome-lighting group objects, shade their outlines and enhances depth perception in scientific visualization images. 
 
 It is useful for recognition and measurement of structures within pointcloud. It can be modified by adjusting Radius, Strength, 
 and Opacity.Those are set to give you tight controls of movement with in the model.
 
-By default, Eye Dome-Lighting is enabled on Potree viewer, but it can be disabled by clicking on the enable option.
+By default, Eye Dome-Lighting is enabled on Capia 3D, but it can be disabled by clicking on the enable option.
 
 
 .. raw:: html
@@ -46,7 +46,7 @@ By default, Eye Dome-Lighting is enabled on Potree viewer, but it can be disable
 Background
 ------------------------
 
-Potree viewer background can be modified with following available options:
+Capia 3D background can be modified with following available options:
 
 *  Street Map(Now this section is null)
 *  Skybox
@@ -91,7 +91,7 @@ Measurement
    :align: center
    
 
-Potree viewer provides several tools for measurement. This tool set consist of 12 elements. It also has controls for showing or 
+Capia 3D provides several tools for measurement. This tool set consist of 12 elements. It also has controls for showing or 
 hiding the resulting measurement labels.
 
 Measurements are performed by use of left clicking the mouse on the desired points and right clicking is needed to terminate 
@@ -327,7 +327,7 @@ To remove the clipping volume or polygons click on the ``Remove all clipping vol
 
 Navigation
 ----------------------
-Potree viewer have 4 Navigation controls which define its behavior.
+Capia 3D have 4 Navigation controls which define its behavior.
 
 **Earth Control**
 

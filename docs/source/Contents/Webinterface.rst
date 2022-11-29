@@ -212,7 +212,7 @@ Point Budget Slider
 The point budget limits the number of points loaded and rendered at any given time, which helps to adapt performance 
 requirements to the capabilities of different hardware. It gives you a complete version of point clouds.
 
-Potree viewer will save the previous selected point budget as the default point budget when the viewer is loaded next time.
+Capia 3D will save the previous selected point budget as the default point budget when the viewer is loaded next time.
 
 
 .. raw:: html
